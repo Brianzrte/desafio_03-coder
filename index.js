@@ -22,7 +22,6 @@ app.get('/productoRandom', async (req, res) => {
 });
 
 
-
 const connectedServer = app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 });
